@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+beautifulsoup4 = "*"
+llama-index = "*"
+openai = "*"
+python-dotenv = "*"
+llama-index-vector-stores-pinecone = "*"
+protobuf = "*"
+google-api-core = "*"
+pinecone-client = {extras = ["grpc"], version = "*"}
+black = "*"
+unstructured = "*"
+streamlit = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
