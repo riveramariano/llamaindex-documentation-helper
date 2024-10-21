@@ -16,4 +16,6 @@ This project is a simple RAG implementation that allows you to ask questions abo
 
 - Clone the repository `https://github.com/riveramariano/llmaindex-documentation-helper.git`
 - Run `pipenv install & pipenv shell` to initialize the virtual env:
+- Decompress the `llamaindex-docs.zip` file in the root folder
+- Run `python ingestion.py` to ingest the documentation into a Pinecone index (create your own index before running the script)
 - Run `streamlit run main.py` to start the application
